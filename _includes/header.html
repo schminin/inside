@@ -18,7 +18,7 @@
       <ul class="main-nav">
         {% if page.lang == 'en' %}
           <li>
-            {% link /en/index.md Home %}
+            [Home]({{ site.url }}{{ site.baseurl }}{% link en/index.md %})
           </li>
           <li>
             {% link /en/news/ News %}
@@ -35,7 +35,8 @@
           </li>
         {% else %}
           <li>
-            {% link /de/index.md Home %}
+            [Home]({{ site.url }}{{ site.baseurl }}{% link de/index.md %})
+
           </li>
           <li>
             {% link /de/news/ Aktuelles %}
