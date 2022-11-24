@@ -1,5 +1,1 @@
-* {% link subproject_1.md | absolute_url Subproject 1 %})
-* {% link subproject_2.md | absolute_url Subproject 2 %})
-* {% link subproject_3.md | absolute_url Subproject 3 %})
-* {% link subproject_4.md | absolute_url Subproject 4 %})
-* {% link subproject_5.md | absolute_url Subproject 5 %})
+* [Subproject 1]({{ site.url }}{{ site.baseurl }}{% link en/subprojects/subproject_1.md %})
