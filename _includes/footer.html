@@ -7,7 +7,7 @@
     <div class="language-text">
       {% for post in posts %}
         <li>
-          <a href="{{ site.base-url }}{{ post.url }}" 
+          <a href="{{ site.baseurl }}{{ post.url }}" 
           class="{{ post.lang }}" 
           title="View in {{post.lang}}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a>
         </li>
@@ -21,7 +21,7 @@
     <li>
       <a href="https://twitter.com/" class="icon">
         <img
-          src="/assets/img/social-twitter.svg"
+          src="{{ site.url }}{{ site.baseurl }}/assets/img/social-twitter.svg"
           class="SiteFooter-icon"
           alt="Twitter"
         />
@@ -30,7 +30,7 @@
     <li>
       <a href="https://github.com/" class="icon">
         <img
-          src="/assets/img/social-github.svg"
+          src="{{ site.url }}{{ site.baseurl }}/assets/img/social-github.svg"
           class="SiteFooter-icon"
           alt="GitHub"
         />
@@ -41,6 +41,6 @@
 <!-- /.footer-links -->
 
 
-<script src="/assets/js/libs/prettify.js"></script>
-<script src="/assets/js/script.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/libs/prettify.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/script.js"></script>
 
