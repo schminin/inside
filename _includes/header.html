@@ -21,17 +21,17 @@
             [Home]({{ site.url }}{{ site.baseurl }}{% link en/index.md %})
           </li>
           <li>
-            {% link /en/news/ News %}
+            [News]({{ site.url }}{{ site.baseurl }}{% link en/news/ %})
           </li>
           <li>
-            {% link /en/subprojects/ Subprojects%}
+            [News]({{ site.url }}{{ site.baseurl }}{% link en/subprojects/ %}
             {{ subprojects_en | markdownify }}
           </li>
           <li>
-            {% link /en/contact/ Contact %}
+            [Contact]({{ site.url }}{{ site.baseurl }}{% link en/contact/ %}
           </li>
           <li>
-            {% link /en/funding/ Funding %}
+            [Funding]({{ site.url }}{{ site.baseurl }}{% link /en/funding/ %}
           </li>
         {% else %}
           <li>
@@ -39,17 +39,17 @@
 
           </li>
           <li>
-            {% link /de/news/ Aktuelles %}
+            [Aktuelles]({{ site.url }}{{ site.baseurl }}{% link de/news/ %}
           </li>
           <li>
-            {% link /de/subprojects/ Arbeitspakete%}
+            [Arbeitspakete]({{ site.url }}{{ site.baseurl }}{% link de/subprojects/ %}
             {{ subprojects_de | markdownify }}
           </li>
           <li>
-            {% link /de/contact/ Kontakt %}
+            [Kontakt]({{ site.url }}{{ site.baseurl }}{% link de/contact/ %}
           </li>
           <li>
-            {% link /de/funding/ Finanzierung %}
+            [Finanzierung]({{ site.url }}{{ site.baseurl }}{% link de/funding/ %}
           </li>
         {% endif %}
         
