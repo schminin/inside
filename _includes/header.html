@@ -18,38 +18,38 @@
       <ul class="main-nav">
         {% if page.lang == 'en' %}
           <li>
-            [Home]({{ site.url }}{{ site.baseurl }}{% link en/index.md %})
+            <a href="{{ site.url }}{{ site.baseurl }}{% link en/index.md %}">Home</a>
           </li>
           <li>
-            [News]({{ site.url }}{{ site.baseurl }}{% link en/news/index.md %})
+            <a href="{{ site.url }}{{ site.baseurl }}{% link en/news/index.md %}">News</a>
           </li>
           <li>
-            [News]({{ site.url }}{{ site.baseurl }}{% link en/subprojects/index.md %}
+            <a href="{{ site.url }}{{ site.baseurl }}{% link en/subprojects/index.md %}">Subprojects</a>
             {{ subprojects_en | markdownify }}
           </li>
           <li>
-            [Contact]({{ site.url }}{{ site.baseurl }}{% link en/contact/index.md %}
+            <a href="{{ site.url }}{{ site.baseurl }}{% link en/contact/index.md %}">Contact</a>
           </li>
           <li>
-            [Funding]({{ site.url }}{{ site.baseurl }}{% link en/funding/index.md %}
+            <a href="{{ site.url }}{{ site.baseurl }}{% link en/funding/index.md %}">Funding</a>
           </li>
         {% else %}
           <li>
-            [Home]({{ site.url }}{{ site.baseurl }}{% link de/index.md %})
+            <a href="{{ site.url }}{{ site.baseurl }}{% link de/index.md %}">Home</a>
 
           </li>
           <li>
-            [Aktuelles]({{ site.url }}{{ site.baseurl }}{% link de/news/index.md %}
+            <a href="{{ site.url }}{{ site.baseurl }}{% link de/news/index.md %}">Aktuelles</a>
           </li>
           <li>
-            [Arbeitspakete]({{ site.url }}{{ site.baseurl }}{% link de/subprojects/index.md %}
+            <a href="{{ site.url }}{{ site.baseurl }}{% link de/subprojects/index.md %}">Arbeitspakete</a>
             {{ subprojects_de | markdownify }}
           </li>
           <li>
-            [Kontakt]({{ site.url }}{{ site.baseurl }}{% link de/contact/index.md %}
+            <a href="{{ site.url }}{{ site.baseurl }}{% link de/contact/index.md %}">Kontakt</a>
           </li>
           <li>
-            [Finanzierung]({{ site.url }}{{ site.baseurl }}{% link de/funding/index.md %}
+            <a href="{{ site.url }}{{ site.baseurl }}{% link de/funding/index.md %}">Finanzierung</a>
           </li>
         {% endif %}
         
