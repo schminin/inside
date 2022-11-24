@@ -5,7 +5,7 @@ author:
   name: ...
 
 baseurl: "/inside"
-url: "https://schminin.github.io"
+url: "https://tiepcreator.github.io"
 
 destination: .tmp
 include:
