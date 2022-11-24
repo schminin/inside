@@ -1,0 +1,23 @@
+
+name: INSIDe.io
+description: ...
+author:
+  name: ...
+
+baseurl: "/inside"
+url: "https://schminin.github.io"
+
+destination: .tmp
+include:
+- _redirects
+
+#languages: ["en", "de"]
+#defaultLang: en
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+plugins:
+- jekyll-paginate
+- jekyll-redirect-from
